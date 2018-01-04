@@ -1,9 +1,21 @@
-.blog-list-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  margin-top: 20px;
-  font-family: Helvetica;
+.comments-container {
+  margin: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #b3b3b3;
+
+  .comment-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .comments-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #006699;
+  }
+
+  .comment-header {
+    color: #737373;
+  }
 
 }

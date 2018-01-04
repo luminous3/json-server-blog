@@ -4,6 +4,7 @@ import classnames from 'classnames';
 import renderHtml from 'react-render-html';
 import { browserHistory } from 'react-router';
 import {getBlogPost} from '../../services/blog-service';
+import Comments from '../comments';
 import './blog-post.scss';
 
 export default class BlogPost extends React.Component {
@@ -49,8 +50,8 @@ export default class BlogPost extends React.Component {
           {!expanded && <div className="description">{description}</div>}
           {expanded && <div className="content">{renderHtml(content)}</div>}
           <div className="footer">
-            <div className="date">{date} &middot;</div>
-            <div className="author">By {author}</div>
+            <div className="author">By {author} &middot; </div>
+            <div className="date">{date}</div>
           </div>
           {expanded && <Comments id={id} />}
         </div>
