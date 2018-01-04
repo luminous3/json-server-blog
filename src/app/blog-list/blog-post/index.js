@@ -40,11 +40,11 @@ export default class BlogPost extends React.Component {
     const {id, title, author, date, slug,
       content, description, expanded} = this.state;
     const titleClass = classnames({'title-focus': !expanded}, 'title');
-
+    const containerClass = classnames({'expanded': expanded}, 'blog-post-container');
     return (
       <div>
         {expanded && <div className="back" onClick={browserHistory.goBack}>Back</div>}
-        <div className="blog-post-container">
+        <div className={containerClass}>
           {!expanded && <Link to={`/posts/${id}`}><div className={titleClass}>{title}</div></Link>}
           {expanded && <div className={titleClass}>{title}</div>}
           {!expanded && <div className="description">{description}</div>}

@@ -11,7 +11,7 @@ export default class Home extends React.Component {
   render() {
     return (
      <div className="main-container">
-        <h1>Welcome!</h1>
+        <h1 className="welcome">Welcome!</h1>
         <BlogList />
       </div>
     );

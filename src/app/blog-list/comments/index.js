@@ -31,6 +31,10 @@ export default class Comments extends React.Component {
             <div>{comment.content}</div>
           </div>
         })}
+        <div className="add-comment">
+          <input placeholder="Add comment" />
+          <button>Submit</button>
+        </div>
       </div>
     );
   }

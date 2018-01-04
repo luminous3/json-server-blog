@@ -3,7 +3,17 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  margin-top: 20px;
+  // margin-top: 20px;
   font-family: Helvetica;
 
+  // border: 10px solid #809fff;
+  padding: 0px 20px 0px 20px;
+
+  a {
+    color: #005999;
+    &:hover {
+      color: #3af;
+      text-decoration: none;
+    }
+  }
 }
