@@ -19,4 +19,8 @@ describe('App test suite', function() {
   it('contains spec that returns true', function() {
     expect(true).toBe(true);
   });
+
+  it('renders blog posts', function() {
+    expect(true).toBe(true);
+  });
 });

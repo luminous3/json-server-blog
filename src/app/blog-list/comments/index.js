@@ -37,6 +37,7 @@ export default class Comments extends React.Component {
   handleSubmit = () => {
     const {comments} = this.state;
     const lastId = comments.length === 0 ? 1 : comments[comments.length - 1].id + 1;
+
     const comment = {
       postId: this.props.id,
       parent_id: null,
