@@ -1,9 +1,3 @@
-## Overview
-Testing json server with a blog feed application.
-
-![Overview](/src/app/img/overview.png?raw=true)
-![Overview2](/src/app/img/overview2.png?raw=true)
-
 ### Requirements
 
 * [Node.js](https://nodejs.org/en/) v6 or higher
@@ -23,6 +17,9 @@ This will run two scripts concurrently:
 #### 3. Navigate to `http://localhost:9000/`
 
 You should see the list of blogs with their description, author, and publish date. Clicking on a single blog post will take you to that blog's page, where you can view comments, and add comments.
+
+![Overview](/src/app/img/overview.png?raw=true)
+![Overview2](/src/app/img/overview2.png?raw=true)
 
 ### Testing
 
