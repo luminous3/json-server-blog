@@ -179,6 +179,14 @@
       "date": "2018-01-04",
       "content": "A single comment",
       "id": 11
+    },
+    {
+      "postId": "3",
+      "parent_id": null,
+      "user": "Alex",
+      "date": "2018-01-04",
+      "content": "Blog post 3 comment",
+      "id": 12
     }
   ]
 }
