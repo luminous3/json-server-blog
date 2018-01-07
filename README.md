@@ -1,4 +1,4 @@
-### Requirements
+## Requirements
 
 * [Node.js](https://nodejs.org/en/) v6 or higher
 
