@@ -1,8 +1,4 @@
-### Requirements
-
-* [Node.js](https://nodejs.org/en/) v6 or higher
-
-### Quick start
+# Quick start
 
 #### 1. Run `npm install`
 
